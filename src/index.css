@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root {
+
+/*font family*/
+--ff-jakarta: "Plus Jakarta Sans", sans-serif;
+
+
+/*colors*/
+
+--Lime: 61, 70%, 52%;
+--Red: 4, 69%, 50%;
+--White: 0, 0%, 100%;
+--Slate-100: 202, 86%, 94%;
+--Slate-300: 203, 41%, 72%;
+--Slate-500: 200, 26%, 54%;
+--Slate-700: 200, 24%, 40%;
+--Slate-900: 202, 55%, 16%;
+--Slate-1000: 203, 61%, 13%, 1.00;
+
+}
+
+
+/*css rest*/
+
+*,*::before,  *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+
+  h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+}
+
+/*end of css rest*/
+
+/*remove animations for people who've turned them off*/
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.1ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+
+.skip-to-content {
+    position: absolute;
+    z-index: 9999;
+    color: hsla(var(--Slate-300));
+    text-decoration: none;
+    padding: 2rem 1rem;
+    margin-inline: auto;
+    transform: translateY(-100%);
+    transition: transform 250ms linear;
+}
+
+.skip-to-content:focus {
+    transform: translateY(0);
+}
+
+
+
+body {
+  font-family: var(--ff-jakarta);
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
