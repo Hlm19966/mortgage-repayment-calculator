@@ -10,7 +10,7 @@ const MortgageResults = ({ results }) => {
 
     return(
         <>
-        <main>
+        <main id="main">
             {results ? (
             <div className='result-section'>
             <h3>Your results</h3>
