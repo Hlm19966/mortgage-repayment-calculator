@@ -24,8 +24,9 @@ const MortgageInputs =({ errors, handelSubmit }) => {
         <>
         <form onSubmit={handelSubmit}>
             <fieldset>
-                <legend className='sr-only'>Mortgage Details</legend>
+             <legend className='sr-only'>Mortgage Details</legend>
 
+               <div className='input-group'>
                 <label htmlFor='mortgageAmount'>Mortgage Amount</label>
                 <div className={`input-wrapper ${errors.mortgageAmount ? 'input-wrapper-error' : ''}`}>
                  <span className='sign sign-left'>£</span>
@@ -46,6 +47,7 @@ const MortgageInputs =({ errors, handelSubmit }) => {
                     role='alert'
                     >{errors.mortgageAmount}</p>
                 )}
+                </div>
 
 
                 <div className='grid-input'>
@@ -69,6 +71,8 @@ const MortgageInputs =({ errors, handelSubmit }) => {
                      role='alert'>
                     {errors.mortgageTerm}</p>
                 )}
+                
+
 
                 <label htmlFor='interestRate' className='label-interestrate'>Interest Rate</label>
                 <div className={`input-wrapper input-wrapper-right ${errors.interestRate ? 'input-wrapper-error' : ''} `}>

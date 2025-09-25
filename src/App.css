@@ -327,14 +327,11 @@ h3 {
   .grid-input {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    column-gap: 0.625rem;
   }
 
   .input-wrapper {
     grid-row: 2/3;
-  }
-
-  .grid-input input {
-    width: 90%;
   }
 
   .Calculator-btn {
