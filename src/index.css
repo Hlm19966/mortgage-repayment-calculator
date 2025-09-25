@@ -85,10 +85,11 @@ p, h1, h2, h3, h4, h5, h6 {
 .skip-to-content {
     position: absolute;
     z-index: 9999;
-    color: hsla(var(--Slate-300));
+    top: 0;
+    left: 0;
+    color: hsla(var(--White));
     text-decoration: none;
     padding: 2rem 1rem;
-    margin-inline: auto;
     transform: translateY(-100%);
     transition: transform 250ms linear;
 }
