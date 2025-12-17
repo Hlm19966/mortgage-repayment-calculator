@@ -85,8 +85,14 @@ input:focus {
 }
 
 
-.input-wrapper{
+.input-wrapper {
   position: relative;
+}
+
+.input-wrapper:has(input:focus) .sign {
+  background-color: hsla(var(--Lime));
+  color: hsla(var(--White));
+  border: 1px solid hsla(var(--Lime));
 }
 
 .sign {

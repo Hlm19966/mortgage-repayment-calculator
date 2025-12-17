@@ -1,12 +1,29 @@
-# React + Vite
+# Mortgage Repayment Calculator 🧮
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A dynamic mortgage repayment calculator built with React, focusing on usability, validation, and accessibility.
 
-Currently, two official plugins are available:
+## ✨ Features
+- Real-time mortgage calculations
+- Input validation with clear error messages
+- Accessible form elements and semantic HTML
+- Improved focus management for keyboard users
+- Clean and user-friendly UI
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Tech Stack
+- React.js
+- JavaScript (ES6+)
+- Semantic HTML
+- CSS
 
-## Expanding the ESLint configuration
+## ♿ Accessibility
+- Keyboard-friendly form navigation
+- Proper labels and error handling
+- Focus management for better UX
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🔗 Links
+- Live Demo: https://mortgagerepaymentcalculator2025.netlify.app/
+- GitHub Repo: https://github.com/Hlm19966/mortgage-repayment-calculator
+
+## 📌 Notes
+This project helped strengthen React fundamentals, state management, and accessibility-aware form handling.
+
